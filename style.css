@@ -4,16 +4,30 @@
 }
 
 #main{
-    background-color: rgb(183, 219, 219);
+    background-color: rgb(152, 218, 218);
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
-.text {
+#text {
   
     font-size: 5rem;
     color: #333;
     transition: color 0.3s ease;
 }
+
+#button{
+   background-color: #BEFFF7;
+   margin: 20px;
+   padding: 10px;
+}
+#link{
+    text-decoration: none;
+    color: #a56b6b;
+    font-size: larger;
+}
+
+

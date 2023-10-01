@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animation</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
      
-        <h1 class="text">WELCOME</h1>
+        <h1 id="text">WELCOME</h1>
 
-    </div>
+    
     <script>
         const container = document.querySelector('.main');
         const changingText = document.querySelector('.text');
 
         main.addEventListener('mouseenter', () => {
             main.style.backgroundColor = '#A6F6FF';
-            Text.style.color = '#071952';
+            text.style.color = '#071952';
         });
 
         main.addEventListener('mouseleave', () => {
            main.style.backgroundColor = '#BEFFF7';
-           Text.style.color = '#2E4374';
+           text.style.color = 'rgb(152, 218, 218)';
         });
     </script>
+
+    <div  id="button"><a id="link" href="animation.html">PRESS ENTER</a></div>
+    </div>
 </body>
 </html>
