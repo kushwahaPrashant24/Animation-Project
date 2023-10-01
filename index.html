@@ -9,8 +9,22 @@
 <body>
     <div id="main">
      
-        <h1>WELCOME</h1>
+        <h1 class="text">WELCOME</h1>
 
     </div>
+    <script>
+        const container = document.querySelector('.main');
+        const changingText = document.querySelector('.text');
+
+        main.addEventListener('mouseenter', () => {
+            main.style.backgroundColor = '#A6F6FF';
+            Text.style.color = '#071952';
+        });
+
+        main.addEventListener('mouseleave', () => {
+           main.style.backgroundColor = '#BEFFF7';
+           Text.style.color = '#2E4374';
+        });
+    </script>
 </body>
 </html>

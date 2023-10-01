@@ -11,3 +11,9 @@
     align-items: center;
     
 }
+.text {
+  
+    font-size: 5rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
