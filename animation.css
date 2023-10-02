@@ -2,14 +2,26 @@
     margin: 0px;
     padding: 0px;
 }
-
-#main{
-    height: 100%;
-    display: flex;
-    
-}
-#img{
+.main{
   height: 100vh;
-  width: 220vh;  
+  width: 205vh;
+}
+
+.main{
+  position: absolute;
+  background: url('back.jpg') no-repeat  center/cover;
+  height: 100vh;
+  width: 196.3vh;
+  z-index: -5;
+
+  display: flex;
+  flex-direction: column-reverse;
+ 
+}
+
+img{
+  height: 50px;
+  width: 70px;  
+  opacity: 3;
 
 }
